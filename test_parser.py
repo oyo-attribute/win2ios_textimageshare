@@ -1,7 +1,7 @@
 import email.parser
 import email.policy
 
-with open(r'c:\Users\msk07\Downloads\Win2ios_Files\debug_received_data.bin', 'rb') as f:
+with open(r'debug_received_data.bin', 'rb') as f:
     received_data = f.read()
 
 # Mock headers exactly as they would be

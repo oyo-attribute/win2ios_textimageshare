@@ -1,5 +1,5 @@
 import win2ios_fileshare as w
-with open(r'c:\Users\msk07\Downloads\Win2ios_Files\debug_received_data.bin', 'rb') as f:
+with open(r'debug_received_data.bin', 'rb') as f:
     t = f.read().decode('utf-8', errors='ignore')
 
 rtf_start = t.find('{\\rtf1')
